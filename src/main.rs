@@ -32,9 +32,9 @@ fn main() -> Result<()> {
         .enumerate()
     {
         if a == b {
-            println!("Digit {}: Correct!", i + 1);
+            println!("{}: Correct!", i + 1);
         } else {
-            println!("Digit {}: Incorrect. Expected {}, got {}.", i + 1, a, b);
+            println!("{}: Incorrect. Expected {}, got {}.", i + 1, a, b);
         }
     }
     Ok(())
